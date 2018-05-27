@@ -6,11 +6,11 @@
     tools:context="ma.alaram.mosque.mosquealaram.FirstFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <ListView
-        android:id="@+id/prays"
+    <com.github.barteksc.pdfviewer.PDFView
         android:layout_width="match_parent"
+        android:id="@+id/duvaas"
         android:layout_height="match_parent">
 
-    </ListView>
+    </com.github.barteksc.pdfviewer.PDFView>
 
 </LinearLayout>

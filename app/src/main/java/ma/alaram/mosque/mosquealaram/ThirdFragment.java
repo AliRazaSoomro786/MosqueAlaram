@@ -37,7 +37,7 @@ public class ThirdFragment extends Fragment
         {
             View view = inflater.inflate(R.layout.fragment_third,container, false);
             PDFView pdfView=(PDFView)view.findViewById(R.id.quran);
-            pdfView.fromAsset("quraan.pdf").load();
+            pdfView.fromAsset("chapter_eight.pdf").load();
             return view;
         }
 }

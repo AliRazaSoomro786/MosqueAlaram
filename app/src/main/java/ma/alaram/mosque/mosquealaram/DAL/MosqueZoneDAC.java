@@ -21,6 +21,7 @@ public class MosqueZoneDAC extends SQLiteOpenHelper
     public void onCreate(SQLiteDatabase db)
     {
         db.execSQL("CREATE TABLE ListOfPlaces(Id INTEGER PRIMARY KEY AUTOINCREMENT,PlaceName TEXT,Radius TEXT,Latitude TEXT,Longitude TEXT)");
+
     }
 
     @Override

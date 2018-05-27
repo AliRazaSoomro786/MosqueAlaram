@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.github.barteksc.pdfviewer.PDFView;
+
 import ma.alaram.mosque.mosquealaram.DTO.PraysAdapter;
 
 public class FirstFragment extends Fragment
@@ -36,9 +38,8 @@ public class FirstFragment extends Fragment
                              Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.fragment_first,container, false);
-        ListView listView=(ListView)view.findViewById(R.id.prays);
-        PraysAdapter praysAdapter=new PraysAdapter(getActivity().getApplicationContext());
-        listView.setAdapter(praysAdapter);
+        PDFView pdfView=(PDFView)view.findViewById(R.id.duvaas);
+        pdfView.fromAsset("duvaas.pdf").load();
         // String a=R.string.After_rainfall;
         //Toast.makeText(getActivity().getApplicationContext(),"", Toast.LENGTH_SHORT).show();
         return view;
