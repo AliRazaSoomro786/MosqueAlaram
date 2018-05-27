@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/placeName"
+            android:padding="8dp"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="15dp"
+            android:hint="place name"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Radius"
+            android:background="@drawable/edit_text"
+            android:padding="8dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="15dp"
+            android:inputType="number"
+            android:hint="Radius"
+            android:textColor="#fff"
+            android:textColorHint="#fff"/>
+
+        <TextView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:text="List of places"
+            android:textColor="#f71e5d6a"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

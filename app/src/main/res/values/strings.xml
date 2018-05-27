@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MosqueZone</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps2">Map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="before_entering">اللّهُـمَّ افْتَـحْ لي أَبْوابَ رَحْمَتـِك</string>
+    <string name="before_entering1">O Allaah, I seek of You Your Grace..</string>
+    <string name="exits_Masjid">اللّهُـمَّ إِنّـي أَسْأَلُكَ مِـنْ فَضْـلِك</string>
+    <string name="exits_Masjid1">O Allaah, open the doors of Your Mercy for me.</string>
+    <string name="Leaving_Home">بِسْمِ اللهِ تَوَكَّلْتُ عَلىَ اللهِ وَلاَ حَوْلَ وَلاَ قُوَّةَ اِلاَّ بِاللهِ ط</string>
+    <string name="Leaving_Home1">Al’laah’s Name we begin with, I place my (full) trust in Al’laah and there is no Might and Power except with Al’laah.</string>
+    <string name="Entering_Home">بِسْـمِ اللهِ وَلَجْنـا، وَبِسْـمِ اللهِ خَـرَجْنـا، وَعَلـى رَبِّنـا تَوَكّلْـنا</string>
+    <string name="Entering_Home1">In the Name of Allah we enter, in the Name of Allah we leave, and upon our Lord we depend [then say As-Salaamu ‘Alaykum to those present</string>
+    <string name="Feeling_Stressed">لآَ اِلَهَ اِلاَّ اللهُ الْحَلِيْمُ الْحَكِيْمُ لآَ اِلَهَ اِلاَّ اللهُ رَبُّ الْعَرْشِ الْعَظِيْم
+لآَ اِلَهَ اِلاَّ اللهُ رَبُّ السَّمَاوَاتَ وَاْلاَرْضِ وَرَبُّ الْعَرْشِ الْكَرِيْمِ ط
+    </string>
+    <string name="Feeling_Stressed1">There is none worthy of worship except Al’laah, The Fore-bearing,
+        The All Wise. There is none worthy of worship except Al’laah, The Lord of the Exalted Throne.
+        There is none worthy of worship except Al’laah,
+        The Lord of the Skies and The Lord of the Earth and the Lord of the distinguished Throne”.</string>
+    <string name="After_rainfall">مُطِرْنَا بِفَضْلِ اللهِ وَ رَحْمَتِهِ </string>
+    <string name="After_rainfall1">We have been given rain by the grace and mercy of Allah </string>
+    <string name="Before_sleeping">بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، فَإِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا، بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ</string>
+    <string name="Before_sleeping1">In Your name my Lord, I lie down and in Your name I rise, so if You should take my soul then have mercy upon it, and if You should return my soul then protect it in the manner You do so with Your righteous servants.</string>
+    <string name="healthy_life">اللّهُـمَّ عافِـني في بَدَنـي ، اللّهُـمَّ عافِـني في سَمْـعي ، اللّهُـمَّ عافِـني في بَصَـري ، لا إلهَ إلاّ أَنْـتَ. اللّهُـمَّ إِنّـي أَعـوذُبِكَ مِنَ الْكُـفر ، وَالفَـقْر ، وَأَعـوذُبِكَ مِنْ عَذابِ القَـبْر ، لا إلهَ إلاّ أَنْـتَ</string>
+    <string name="healthy_life1">O Allah, make me healthy in my body. O Allah, preserve for me my hearing. O Allah, preserve for me my sight. There is none worthy of worship but You . O Allah , I seek refuge in You from disbelief and poverty and I seek refuge in You from the punishment of the grave . There is none worthy of worship but You.</string>
+    <string name="Everyday_Duas">اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْماً نَافِعاً، وَرِزْقاً طَيِّباً، وَعَمَلاً مُتَقَبَّلاً</string>
+    <string name="Everyday_Duas1">O Allah, I ask You for knowledge that is of benefit , a good provision , and deeds that will be accepted.</string>
+    <string name="For_forgiveness">رَبِّ اِنِّىْٓ اَعُوْذُ بِكَ اَنْ اَسْـــَٔـلَكَ مَا لَيْسَ لِيْ بِهٖ عِلْمٌ ۭ وَاِلَّا تَغْفِرْ لِيْ وَتَرْحَمْنِيْٓ اَكُنْ مِّنَ الْخٰسِرِيْنَ</string>
+    <string name="For_forgiveness1">O my Lord! I seek refuge with You from asking You that of which I have no knowledge. And unless You forgive me and have Mercy on me, I would indeed be one of the losers.</string>
+
+</resources>

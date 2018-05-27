@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="ma.alaram.mosque.mosquealaram.SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/calender"
+        android:layout_weight="2">
+
+        <CalendarView
+            android:id="@+id/calendar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </CalendarView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/calender"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView"
+            android:text="center"
+            android:layout_weight="0.29"
+            android:textColor="#000000"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/DanteChanger"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_weight="0.05"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

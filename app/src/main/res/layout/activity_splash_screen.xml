@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#5bbba3"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="5"
+    android:layout_height="match_parent"
+    tools:context="ma.alaram.mosque.mosquealaram.SplashScreen">
+<LinearLayout
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="3"
+        android:src="@drawable/splashfullfinal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="MOSQUE ZONE"
+        android:textColor="#fff"
+        android:layout_height="0dp" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="2">
+        <Button
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:text="GET STARTED"
+            android:id="@+id/splash"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="50dp"
+             android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>
